@@ -1,0 +1,315 @@
+[29-Oct-2016 13:06:15 Europe/London] PHP Parse error:  syntax error, unexpected 'exit' (T_EXIT) in /home/supstock/public_html/crm/storage/framework/views/c147fe4b1bb257d937c43c48d8c946f2668b5924.php on line 133
+[29-Oct-2016 13:25:56 Europe/London] PHP Parse error:  syntax error, unexpected '?' in /home/supstock/public_html/crm/storage/framework/views/c147fe4b1bb257d937c43c48d8c946f2668b5924.php on line 117
+[29-Oct-2016 13:33:28 Europe/London] PHP Fatal error:  Cannot redeclare limit_words() (previously declared in /home/supstock/public_html/crm/storage/framework/views/550f22d2423021d448245d83eef150eea2be7676.php:11) in /home/supstock/public_html/crm/storage/framework/views/550f22d2423021d448245d83eef150eea2be7676.php on line 55
+[10-Nov-2016 11:46:12 Europe/London] PHP Parse error:  syntax error, unexpected end of file in /home/supstock/public_html/crm/storage/framework/views/63263e36a68db1911ad6b9d2100baf3a88cf66ab.php on line 81
+[11-Nov-2016 06:56:57 Europe/London] PHP Parse error:  syntax error, unexpected ''9a5c99873b7df2d4' (T_ENCAPSED_AND_WHITESPACE) in /home/supstock/public_html/crm/app/Http/Controllers/dealer/DealerNewsLatterController.php on line 54
+[11-Nov-2016 11:18:46 Europe/London] PHP Parse error:  syntax error, unexpected '||' (T_BOOLEAN_OR) in /home/supstock/public_html/crm/storage/framework/views/29e3c22e4bdfe8811b201c3e0dc2c290ababb467.php on line 73
+[18-Nov-2016 14:09:39 Europe/London] PHP Parse error:  syntax error, unexpected end of file in /home/supstock/public_html/crm/storage/framework/views/4e2d2c424be258c23c23d4e9681813e332b9814e.php on line 124
+[22-Nov-2016 05:43:48 Europe/London] PHP Parse error:  syntax error, unexpected end of file in /home/supstock/public_html/crm/storage/framework/views/550f22d2423021d448245d83eef150eea2be7676.php on line 387
+[22-Nov-2016 13:06:01 Europe/London] PHP Parse error:  syntax error, unexpected '&&' (T_BOOLEAN_AND) in /home/supstock/public_html/crm/app/Http/Controllers/admin/OrderController.php on line 540
+[22-Nov-2016 13:06:18 Europe/London] PHP Parse error:  syntax error, unexpected '&&' (T_BOOLEAN_AND) in /home/supstock/public_html/crm/app/Http/Controllers/admin/OrderController.php on line 540
+[22-Nov-2016 13:06:51 Europe/London] PHP Parse error:  syntax error, unexpected '&&' (T_BOOLEAN_AND) in /home/supstock/public_html/crm/app/Http/Controllers/admin/OrderController.php on line 540
+[22-Nov-2016 13:06:57 Europe/London] PHP Parse error:  syntax error, unexpected '&&' (T_BOOLEAN_AND) in /home/supstock/public_html/crm/app/Http/Controllers/admin/OrderController.php on line 540
+[22-Nov-2016 13:07:04 Europe/London] PHP Parse error:  syntax error, unexpected '&&' (T_BOOLEAN_AND) in /home/supstock/public_html/crm/app/Http/Controllers/admin/OrderController.php on line 540
+[22-Nov-2016 13:10:05 Europe/London] PHP Parse error:  syntax error, unexpected end of file in /home/supstock/public_html/crm/storage/framework/views/5dea726878362e3175ac91e43ad5ec5c46387d52.php on line 423
+[23-Nov-2016 10:58:57 Europe/London] PHP Parse error:  syntax error, unexpected ''operat' (T_ENCAPSED_AND_WHITESPACE) in /home/supstock/public_html/crm/app/Http/Controllers/admin/OrderController.php on line 1193
+[23-Nov-2016 11:40:36 Europe/London] PHP Parse error:  syntax error, unexpected '{' in /home/supstock/public_html/crm/storage/framework/views/4e2d2c424be258c23c23d4e9681813e332b9814e.php on line 276
+[26-Nov-2016 16:45:21 Europe/London] PHP Parse error:  syntax error, unexpected ''order_' (T_ENCAPSED_AND_WHITESPACE), expecting ']' in /home/supstock/public_html/crm/app/Http/Controllers/dealer/OrderController.php on line 947
+[30-Nov-2016 14:11:58 Europe/London] PHP Parse error:  syntax error, unexpected '<' in /home/supstock/public_html/crm/storage/framework/views/11626f58aed827dcadbe220bed54d0421038df1e.php on line 53
+[30-Nov-2016 14:13:34 Europe/London] PHP Parse error:  syntax error, unexpected '<' in /home/supstock/public_html/crm/storage/framework/views/11626f58aed827dcadbe220bed54d0421038df1e.php on line 273
+[01-Dec-2016 21:31:48 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[01-Dec-2016 21:31:48 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[01-Dec-2016 21:31:48 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[01-Dec-2016 21:31:48 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[01-Dec-2016 21:42:19 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[01-Dec-2016 21:42:19 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[01-Dec-2016 21:42:19 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[01-Dec-2016 21:42:19 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[01-Dec-2016 21:42:19 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[01-Dec-2016 21:42:19 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[01-Dec-2016 22:20:34 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[01-Dec-2016 22:20:34 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[01-Dec-2016 22:20:34 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[01-Dec-2016 22:20:34 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[01-Dec-2016 22:20:34 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[01-Dec-2016 22:20:34 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[01-Dec-2016 22:20:34 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[01-Dec-2016 22:20:34 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[01-Dec-2016 22:20:34 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[01-Dec-2016 22:20:34 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[01-Dec-2016 22:20:34 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[01-Dec-2016 22:20:34 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[01-Dec-2016 22:20:34 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[01-Dec-2016 22:20:34 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[01-Dec-2016 22:20:34 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[01-Dec-2016 22:20:34 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[01-Dec-2016 22:20:34 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[01-Dec-2016 22:20:34 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[01-Dec-2016 22:20:34 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[01-Dec-2016 22:20:34 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[01-Dec-2016 22:20:34 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[01-Dec-2016 22:20:34 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[01-Dec-2016 22:20:34 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[01-Dec-2016 22:20:34 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[01-Dec-2016 22:20:34 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[01-Dec-2016 22:20:34 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[01-Dec-2016 22:20:34 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[01-Dec-2016 22:20:34 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[01-Dec-2016 22:20:34 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[01-Dec-2016 22:20:34 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[01-Dec-2016 22:30:24 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[01-Dec-2016 22:30:24 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[01-Dec-2016 22:30:24 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[01-Dec-2016 22:30:24 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[01-Dec-2016 22:30:24 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[01-Dec-2016 22:30:24 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[01-Dec-2016 22:30:24 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[01-Dec-2016 22:30:24 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[01-Dec-2016 22:30:24 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[01-Dec-2016 22:30:24 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[01-Dec-2016 22:30:24 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[01-Dec-2016 22:30:24 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[01-Dec-2016 22:30:24 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[01-Dec-2016 22:30:24 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[01-Dec-2016 22:30:24 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[01-Dec-2016 22:30:24 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[01-Dec-2016 22:30:24 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[01-Dec-2016 22:30:24 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[01-Dec-2016 22:30:24 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[05-Dec-2016 20:52:43 UTC] PHP Warning:  POST Content-Length of 2679964052 bytes exceeds the limit of 1048576000 bytes in Unknown on line 0
+[12-Dec-2016 07:30:03 Europe/London] PHP Parse error:  syntax error, unexpected '?' in /home/supstock/public_html/crm/storage/framework/views/31b21facab4048ecfa79b2aa26e52e338ec7f06c.php on line 871
+[12-Dec-2016 07:31:21 Europe/London] PHP Parse error:  syntax error, unexpected '?' in /home/supstock/public_html/crm/storage/framework/views/31b21facab4048ecfa79b2aa26e52e338ec7f06c.php on line 148
+[14-Dec-2016 22:38:26 UTC] PHP Warning:  POST Content-Length of 4017480914 bytes exceeds the limit of 3670016000 bytes in Unknown on line 0
+[19-Dec-2016 05:12:42 Europe/London] PHP Parse error:  syntax error, unexpected end of file, expecting ')' in /home/supstock/public_html/crm/app/Http/routes.php on line 633
+[19-Dec-2016 05:12:49 Europe/London] PHP Parse error:  syntax error, unexpected end of file, expecting ')' in /home/supstock/public_html/crm/app/Http/routes.php on line 633
+[19-Dec-2016 05:14:49 Europe/London] PHP Parse error:  syntax error, unexpected end of file in /home/supstock/public_html/crm/app/Http/routes.php on line 1616
+[19-Dec-2016 05:16:43 Europe/London] PHP Parse error:  syntax error, unexpected ''/admin/productCategoriesA' (T_ENCAPSED_AND_WHITESPACE) in /home/supstock/public_html/crm/app/Http/routes.php on line 153
+[19-Dec-2016 05:16:44 Europe/London] PHP Parse error:  syntax error, unexpected ''/admin/productCategoriesA' (T_ENCAPSED_AND_WHITESPACE) in /home/supstock/public_html/crm/app/Http/routes.php on line 153
+[19-Dec-2016 05:17:05 Europe/London] PHP Parse error:  syntax error, unexpected ''Mana' (T_ENCAPSED_AND_WHITESPACE) in /home/supstock/public_html/crm/app/Http/routes.php on line 561
+[19-Dec-2016 05:17:07 Europe/London] PHP Parse error:  syntax error, unexpected ''Mana' (T_ENCAPSED_AND_WHITESPACE) in /home/supstock/public_html/crm/app/Http/routes.php on line 561
+[19-Dec-2016 05:17:09 Europe/London] PHP Parse error:  syntax error, unexpected ''Mana' (T_ENCAPSED_AND_WHITESPACE) in /home/supstock/public_html/crm/app/Http/routes.php on line 561
+[31-Dec-2016 21:41:40 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[31-Dec-2016 21:41:40 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[31-Dec-2016 21:41:40 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[31-Dec-2016 21:41:40 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[31-Dec-2016 21:41:40 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[31-Dec-2016 21:41:40 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[31-Dec-2016 21:41:40 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[31-Dec-2016 21:41:40 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[31-Dec-2016 21:41:40 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[31-Dec-2016 21:41:40 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[31-Dec-2016 21:41:40 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[31-Dec-2016 21:41:40 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[31-Dec-2016 21:41:40 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[31-Dec-2016 21:41:40 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[31-Dec-2016 21:41:40 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[31-Dec-2016 21:41:40 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[31-Dec-2016 21:41:40 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[31-Dec-2016 21:41:40 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[31-Dec-2016 21:41:40 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[31-Dec-2016 21:41:40 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[31-Dec-2016 21:41:40 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[31-Dec-2016 21:41:40 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[31-Dec-2016 21:55:25 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[31-Dec-2016 21:55:25 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[31-Dec-2016 21:55:25 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[31-Dec-2016 21:55:25 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[31-Dec-2016 21:55:25 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[31-Dec-2016 21:55:25 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[31-Dec-2016 21:55:25 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[31-Dec-2016 21:55:25 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[31-Dec-2016 21:55:25 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[31-Dec-2016 21:55:25 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[31-Dec-2016 21:55:25 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[31-Dec-2016 21:55:25 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[31-Dec-2016 21:55:25 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[31-Dec-2016 21:55:25 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[31-Dec-2016 21:55:25 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[31-Dec-2016 21:55:25 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[31-Dec-2016 21:55:25 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[31-Dec-2016 22:05:52 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[31-Dec-2016 22:05:52 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[31-Dec-2016 22:05:52 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[31-Dec-2016 22:05:52 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[31-Dec-2016 22:05:52 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[31-Dec-2016 22:05:52 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[31-Dec-2016 22:05:52 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[31-Dec-2016 22:05:52 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[31-Dec-2016 22:05:52 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[31-Dec-2016 22:05:52 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[31-Dec-2016 22:05:52 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[31-Dec-2016 22:05:52 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[31-Dec-2016 22:05:52 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[31-Dec-2016 22:05:52 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[31-Dec-2016 22:05:52 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[31-Dec-2016 22:05:52 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[31-Dec-2016 22:05:52 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[31-Dec-2016 22:05:52 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[31-Dec-2016 22:05:52 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[01-Jan-2017 08:41:01 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[01-Jan-2017 08:41:01 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[01-Jan-2017 08:41:01 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[01-Jan-2017 08:41:01 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[01-Jan-2017 08:41:01 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[01-Jan-2017 08:41:01 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[01-Jan-2017 08:41:01 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[01-Jan-2017 08:41:01 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[01-Jan-2017 08:41:01 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[01-Jan-2017 08:41:01 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[01-Jan-2017 08:41:01 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[01-Jan-2017 08:41:01 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[01-Jan-2017 08:41:01 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[01-Jan-2017 08:41:01 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[01-Jan-2017 08:41:01 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[01-Jan-2017 08:41:01 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[01-Jan-2017 08:41:01 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[01-Jan-2017 08:41:01 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[01-Jan-2017 08:41:01 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[01-Jan-2017 08:41:01 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[01-Jan-2017 08:41:01 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[01-Jan-2017 08:41:01 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[01-Jan-2017 08:41:01 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[01-Jan-2017 08:41:01 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[01-Jan-2017 08:41:01 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[01-Jan-2017 08:41:01 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[01-Jan-2017 08:41:01 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[01-Jan-2017 08:41:01 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[01-Jan-2017 08:41:01 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[01-Jan-2017 08:41:01 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[01-Jan-2017 08:52:21 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[01-Jan-2017 08:52:21 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[01-Jan-2017 08:52:21 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[01-Jan-2017 08:52:21 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[01-Jan-2017 08:52:21 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[01-Jan-2017 08:52:21 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[01-Jan-2017 08:52:21 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[01-Jan-2017 08:52:21 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[01-Jan-2017 08:52:21 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[01-Jan-2017 08:52:21 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[01-Jan-2017 08:52:21 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[01-Jan-2017 08:52:21 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[01-Jan-2017 08:52:21 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[01-Jan-2017 08:52:21 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[01-Jan-2017 08:52:21 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[01-Jan-2017 08:52:21 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[01-Jan-2017 08:52:21 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[01-Jan-2017 08:52:21 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[01-Jan-2017 08:52:21 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[11-Jan-2017 11:13:35 Europe/London] PHP Fatal error:  Cannot use object of type stdClass as array in /home/supstock/public_html/crm/storage/framework/views/de877830335fc8539a655bada4e24d98f53a47bf.php on line 269
+[11-Jan-2017 11:14:56 Europe/London] PHP Parse error:  syntax error, unexpected end of file in /home/supstock/public_html/crm/storage/framework/views/de877830335fc8539a655bada4e24d98f53a47bf.php on line 573
+[16-Jan-2017 14:19:15 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[16-Jan-2017 14:19:15 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[16-Jan-2017 14:19:15 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[16-Jan-2017 14:19:15 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[16-Jan-2017 14:19:15 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[16-Jan-2017 14:19:15 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[16-Jan-2017 14:19:15 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[16-Jan-2017 14:19:15 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[16-Jan-2017 14:19:15 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[16-Jan-2017 14:19:15 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[16-Jan-2017 14:19:15 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[16-Jan-2017 14:19:15 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[16-Jan-2017 14:19:15 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[16-Jan-2017 14:19:15 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[16-Jan-2017 14:19:15 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[16-Jan-2017 14:19:15 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[16-Jan-2017 14:19:15 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[16-Jan-2017 14:19:15 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[16-Jan-2017 14:19:15 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[16-Jan-2017 14:19:15 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[16-Jan-2017 14:19:15 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[16-Jan-2017 14:19:15 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[16-Jan-2017 14:19:15 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[16-Jan-2017 14:19:15 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[16-Jan-2017 14:19:15 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[16-Jan-2017 14:25:14 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[16-Jan-2017 14:25:14 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[16-Jan-2017 14:25:14 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[16-Jan-2017 14:25:14 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[16-Jan-2017 14:25:14 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[16-Jan-2017 14:25:14 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[16-Jan-2017 14:25:14 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[16-Jan-2017 14:25:14 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[16-Jan-2017 14:25:14 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[16-Jan-2017 14:25:14 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[16-Jan-2017 14:25:14 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[16-Jan-2017 14:25:14 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[16-Jan-2017 14:25:14 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[16-Jan-2017 14:25:14 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[16-Jan-2017 14:25:14 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[16-Jan-2017 14:25:14 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[16-Jan-2017 14:25:14 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[16-Jan-2017 14:25:14 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[16-Jan-2017 14:25:14 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[16-Jan-2017 14:25:14 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[16-Jan-2017 14:25:14 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[16-Jan-2017 14:25:14 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[16-Jan-2017 14:25:14 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[16-Jan-2017 14:25:14 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[16-Jan-2017 14:25:14 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[20-Jan-2017 12:29:49 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[20-Jan-2017 12:29:49 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[20-Jan-2017 12:29:49 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[23-Jan-2017 10:28:37 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[23-Jan-2017 10:28:37 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[23-Jan-2017 10:28:37 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[23-Jan-2017 10:28:37 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[23-Jan-2017 10:28:37 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[23-Jan-2017 10:28:37 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[23-Jan-2017 10:28:37 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[23-Jan-2017 10:28:37 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[23-Jan-2017 10:28:37 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[23-Jan-2017 10:28:37 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[23-Jan-2017 10:28:37 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[23-Jan-2017 10:28:37 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[06-Feb-2017 21:37:20 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[06-Feb-2017 21:37:20 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[06-Feb-2017 21:37:20 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[06-Feb-2017 21:37:20 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[06-Feb-2017 21:37:20 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[06-Feb-2017 21:37:20 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[06-Feb-2017 21:37:20 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[06-Feb-2017 21:37:20 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[06-Feb-2017 21:37:20 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[06-Feb-2017 21:37:20 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[06-Feb-2017 21:37:20 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[06-Feb-2017 21:37:20 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[06-Feb-2017 21:37:20 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[06-Feb-2017 21:37:20 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[06-Feb-2017 21:37:20 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[06-Feb-2017 21:37:20 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[06-Feb-2017 21:37:20 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[06-Feb-2017 21:37:20 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[06-Feb-2017 21:37:20 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[06-Feb-2017 21:37:20 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[06-Feb-2017 21:37:20 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[06-Feb-2017 21:37:20 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[06-Feb-2017 21:37:20 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[06-Feb-2017 21:37:20 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[06-Feb-2017 21:37:20 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[06-Feb-2017 21:37:20 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[06-Feb-2017 21:37:20 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[06-Feb-2017 21:37:20 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[06-Feb-2017 21:37:20 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[06-Feb-2017 21:37:20 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[07-Feb-2017 15:47:05 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[07-Feb-2017 15:47:05 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[07-Feb-2017 15:47:05 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[07-Feb-2017 15:47:05 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[07-Feb-2017 15:47:05 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[07-Feb-2017 15:47:05 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[07-Feb-2017 15:47:05 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[07-Feb-2017 15:47:05 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[07-Feb-2017 15:47:05 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[07-Feb-2017 15:47:05 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[07-Feb-2017 15:47:05 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[07-Feb-2017 15:47:05 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[07-Feb-2017 15:47:05 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[07-Feb-2017 15:47:05 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[07-Feb-2017 15:47:05 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[07-Feb-2017 15:47:05 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[07-Feb-2017 15:47:05 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[07-Feb-2017 15:47:05 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[07-Feb-2017 15:47:05 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[07-Feb-2017 15:47:05 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[09-Feb-2017 11:59:38 Europe/London] PHP Parse error:  syntax error, unexpected 'echo $orde' in /home/supstock/public_html/crm/app/Http/Controllers/admin/OrderController.php on line 1409

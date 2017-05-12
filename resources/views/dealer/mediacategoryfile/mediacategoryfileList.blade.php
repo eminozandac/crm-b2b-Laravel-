@@ -1,0 +1,270 @@
+@extends('dealer/layouts/masterdealer')
+
+@section('pagecss')
+    <style>
+        .nested_ul {
+            padding-left: 10px;
+        }
+        .nested_ul li{
+            border: none;
+        }
+        .nested_ul li ul{
+            padding-left: 15px;
+        }
+        .nested_ul li ul li{
+            border-bottom: 1px solid #e7eaec;
+            display: block;
+        }
+
+        *{
+            outline: none;
+        }
+
+        .file .icon, .file .image{
+            height: 135px;
+        }
+
+        .lightBoxGallery img{
+            margin: 0;
+        }
+    </style>
+    <link href="{{ asset('assets/css/plugins/blueimp/css/blueimp-gallery.min.css') }}" rel="stylesheet">
+@stop
+
+@section('contentPages')
+    <div class="row wrapper border-bottom white-bg page-heading">
+        <div class="col-lg-10">
+            <h2>
+                Media Category list
+            </h2>
+            <ol class="breadcrumb">
+                <li>
+                    <a href="{{URL::to('/dealer')}}">Home</a>
+                </li>
+                <li>
+                    <a href="{{URL::to('/dealer/mediacategoryfile')}}">All Media Category</a>
+                </li>
+                <?php
+                function parentName($id)
+                {
+                    $result_name = DB::table('media_category')->select('id','media_uniqueID','parent_id','name')->where('id','=',$id)->first();
+                    $html = '';
+                    if(!empty($result_name))
+                    {
+                        $name = $result_name->name;
+                        $action_url = '/dealer/mediacategoryfilelist/'.$result_name->id;
+                        $parent_id = $result_name->parent_id;
+                        if($parent_id != 0){
+                            $parent_tree= parentName($parent_id);
+                            echo $parent_tree;
+                        }
+                        $html.= '<li>';
+                        $html.= '<a href="'.URL::to($action_url).'">';
+                        $html.= '<strong>'.$name.'</strong>';
+                        $html.= '</a>';
+                        $html.= '</li>';
+                    }
+                    return $html;
+                }
+                ?>
+                @if(isset($categoryID) && !empty($categoryID))
+                    <?php
+                    $name = '';
+                    $action_url = '#';
+                    $result_name = DB::table('media_category')->select('id','media_uniqueID','parent_id','name')->where('id','=',$categoryID)->first();
+                    if(!empty($result_name))
+                    {
+                        $name = $result_name->name;
+                        $action_url = '/dealer/mediacategoryfilelist/'.$result_name->id;
+                        $parent_id = $result_name->parent_id;
+                        if($parent_id != 0){
+                            $parent_tree= parentName($parent_id);
+                            echo $parent_tree;
+                        }
+                    }
+                    ?>
+                    <li>
+                        <a href="{{ URL::to($action_url) }}"><strong>{{ $name }}</strong></a>
+                    </li>
+                @endif
+            </ol>
+        </div>
+    </div>
+    <?php
+    function countChildFile($media_id,$storecount=0)
+    {
+        $total_count = 0;
+        $select_query = "SELECT t1.id AS level1_ID, t1.name AS level1, t2.id AS level2_ID, t2.media_uniqueID AS level2_media_uniqueID, t2.name as level2
+        FROM media_category AS t1  LEFT JOIN media_category AS t2 ON t2.parent_id = t1.id  WHERE t1.media_uniqueID = '".$media_id."' ORDER BY t1.id ASC ";
+
+        $result_mediacategory_tree = DB::select($select_query);
+        if(!empty($result_mediacategory_tree))
+        {
+            foreach($result_mediacategory_tree as $key_tree => $value_tree)
+            {
+                if(($value_tree->level2_ID != '') && ($value_tree->level2_ID != null))
+                {
+                    $count = DB::table('media_category_file')->where('media_uniqueID','=',$value_tree->level2_media_uniqueID)->count();
+                    if($count != 0)
+                    {
+                        $storecount = $storecount + $count;
+                    }
+                    $count_child = countChildFile($value_tree->level2_media_uniqueID,$storecount);
+                    $storecount =  $count_child;
+                }
+            }
+        }
+        return $storecount;
+    }
+    ?>
+    <div class="wrapper wrapper-content animated fadeInRight">
+        <div class="row">
+            <div class="col-lg-12 animated fadeInRight">
+                <div class="row">
+                    <div class="col-lg-12 lightBoxGallery">
+                        <?php $no=0; ?>
+                        @if(isset($parent_category) && !empty($parent_category) )
+                            @foreach($parent_category as $key => $value)
+                                <?php
+                                    $no++;
+                                    $action_url = '/dealer/mediacategoryfilelist/'.$value->id;
+                                    $count = 0;
+                                    $count = DB::table('media_category_file')->where('media_uniqueID','=',$value->media_uniqueID)->count();
+                                    $childcount = countChildFile($value->media_uniqueID,0);
+                                    $count = $count + $childcount;
+                                ?>
+                                <div class="file-box">
+                                    <div class="file">
+                                        <a href="{{ URL::to($action_url) }}">
+                                            <span class="corner"></span>
+                                            <div class="icon">
+                                                @if($value->file_name != '')
+                                                    <?php
+                                                    $show_url = 'uploads/mediafile/thumb/'.$value->file_name;
+                                                    ?>
+                                                    <img alt="{{ $value->name }}" class="img-responsive" src="{{ URL::to($show_url) }}">
+                                                @else
+                                                    <i class="fa fa-file"></i>
+                                                @endif
+                                            </div>
+                                            <div class="file-name">
+                                                {{ $value->name }}
+                                                <b class="pull-right">( {{ $count }} )</b>
+                                                <br/>
+                                                <span style="line-height: 4.5rem">&nbsp;</span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            @endforeach
+                        @endif
+
+                        <?php
+                        $image_file_type_ar = array('jpg','jpeg','png','JPG','JPEG','PNG');
+                        $audio_file_type_ar = array('mp3');
+                        $video_file_type_ar = array('mp4','3gp');
+                        $document_file_type_ar = array('pdf','docs','txt');
+                        ?>
+                        @if(isset($medialFile) && !empty($medialFile) )
+                            @foreach($medialFile as $key => $value)
+                                <?php
+                                    $no++;
+                                    $show_url = 'uploads/mediafile/thumb/'.$value->file_name;
+                                    $download_url = 'uploads/mediafile/'.$value->file_name;
+                                    $original_filename = $value->old_file_name;
+                                ?>
+                                <div class="file-box">
+                                    <div class="file">
+                                        <span class="corner"></span>
+                                        @if( (in_array($value->file_type,$video_file_type_ar)) || (in_array($value->file_type,$document_file_type_ar)) )
+                                            <?php
+                                            $file_class = 'fa fa-file-text-o';
+                                            if($value->file_type == 'pdf')
+                                            {
+                                                $file_class = 'fa fa-file-pdf-o';
+                                            }else if(in_array($value->file_type,$video_file_type_ar))
+                                            {
+                                                $file_class = 'fa fa-music';
+                                            }else{
+                                                $file_class = 'fa fa-file-text-o';
+                                            }
+                                            ?>
+                                            <div class="icon">
+                                                <i class="{{ $file_class }}"></i>
+                                            </div>
+                                        @endif
+                                        @if(in_array($value->file_type,$image_file_type_ar))
+                                            <div class="icon">
+                                                <a href="{{ URL::to($download_url) }}" title="{{ $original_filename }}" data-gallery="">
+                                                    <img alt="{{ $original_filename }}" class="img-responsive" src="{{ URL::to($show_url) }}">
+                                                </a>
+                                            </div>
+                                        @endif
+                                        <div class="file-name text-center">
+                                            {{ $original_filename }}<br/><br/>
+
+                                            <a download="" href="{{ URL::to($download_url) }}" class="btn btn-primary waves-effect waves-light" style="padding: 0.255rem 0.675rem;" data-toggle="tooltip" data-placement="top" title="DOWNLOAD" >
+                                                <i class="fa fa-download"></i>
+                                            </a>
+                                            <a target="_blank" href="{{ URL::to($download_url) }}" class="btn btn-info waves-effect waves-light" style="padding: 0.255rem 0.675rem;" data-toggle="tooltip" data-placement="top" title="VIEW" >
+                                                <i class="fa fa-eye"></i>
+                                            </a>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            @endforeach
+                        @endif
+
+                        @if($no == 0)
+                            <div class="file-box">
+                                <div class="file">
+                                    <a href="#">
+                                        <span class="corner"></span>
+                                        <div class="icon">
+                                            <i class="fa fa-file"></i>
+                                        </div>
+                                        <div class="file-name">
+                                            Not Any Media File Upload
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        @endif
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="blueimp-gallery" class="blueimp-gallery">
+        <div class="slides"></div>
+        <h3 class="title"></h3>
+        <a class="prev"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
+        <a class="next"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
+        <a class="close"><i class="fa fa-times" aria-hidden="true"></i></a>
+        <a class="play-pause"></a>
+        <ol class="indicator"></ol>
+    </div>
+    <input name="_token" type="hidden" id="hidden_token" value="{{ csrf_token() }}"/>
+@stop()
+
+@section('pagescript')
+    @include('dealer.includes.commonscript')
+
+    <script src="{{ asset('assets/js/plugins/jeditable/jquery.jeditable.js') }}"></script>
+    <script src="{{ asset('assets/js/plugins/dataTables/datatables.min.js') }}"></script>
+
+    <!-- blueimp gallery -->
+    <script src="{{ asset('assets/js/plugins/blueimp/jquery.blueimp-gallery.min.js') }}"></script>
+
+    <script type="text/javascript">
+        $(function ()
+        {
+            $('.file-box').each(function() {
+                animationHover(this, 'pulse');
+            });
+        });
+    </script>
+@stop()
